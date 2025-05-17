@@ -71,8 +71,10 @@ Welcome to the Airbnb Dynamic Pricing project! This repository contains code, da
 
 ## 📄 Reports
 
-- `Airbnb_Dynamic_Pricing_Report.pdf`: Full project explanation
-- `Recommendations.pdf`: Actionable insights for Airbnb hosts
+- `Airbnb.ipynb` – Model development notebook  
+- `Airbnb.pbix` – Interactive Power BI dashboard 
+- `Airbnb_Dynamic_Pricing_Report.pdf`- Full project explanation
+- `Recommendations.pdf`- Actionable insights for Airbnb hosts
 
 ---
 
@@ -110,9 +112,3 @@ Welcome to the Airbnb Dynamic Pricing project! This repository contains code, da
 
 ---
 
-## 📢 Notes
-
-- The model can be retrained periodically to stay updated with market trends.
-- Dashboard can be extended to provide real-time price suggestions via API.
-
----

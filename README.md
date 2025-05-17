@@ -6,10 +6,11 @@ This project uses machine learning and Power BI to predict whether a patient wil
 
 ## 📚 Project Objective
 
-- Predict no-show probability using historical appointment data  
-- Analyze trends (e.g., SMS, age, weekday) affecting patient attendance  
-- Build an interactive dashboard and generate scheduling recommendations  
-
+- Predict whether a patient will miss their scheduled medical appointment.
+- Analyze historical appointment data to discover trends in no-show behavior.
+- Create a Power BI dashboard to visualize patterns and support decision-making.
+- Recommend strategies to improve attendance and optimize scheduling.
+  
 ---
 
 ## 🧰 Tools & Technologies
@@ -46,21 +47,33 @@ This project uses machine learning and Power BI to predict whether a patient wil
 
 ---
 
-## 📊 Dashboard Highlights
+## 📊 Dashboard
 
-- No-show rates by day of week, age, gender  
-- Effects of SMS reminders  
-- Relationship with waiting days and chronic conditions  
+- Built in Power BI (`Medical.pbix`)
+- Visuals include:
+  - No-show by weekday, age, gender
+  - Impact of SMS reminders
+  - Correlation with waiting time and chronic conditions
+
+---
+
+## 💡 Key Insights
+
+- Higher no-shows observed on Mondays
+- SMS reminders significantly increase attendance
+- Elderly patients prefer afternoon appointments
+- Prior no-show history is a strong predictor
+- Long waiting days negatively impact attendance
 
 ---
 
 ## ✅ Recommendations
 
-- Send SMS reminders 24–48 hours in advance  
-- Avoid scheduling high-risk patients on Mondays  
-- Follow up with patients who previously missed appointments  
-- Schedule elderly patients for later time slots  
-- Consider teleconsultation options for remote patients  
+- Send SMS reminders 24–48 hours in advance
+- Avoid scheduling high-risk patients on Mondays
+- Use follow-up calls for patients with no-show history
+- Prioritize elderly for late-day slots
+- Explore telehealth options for distant neighborhoods
 
 ---
 

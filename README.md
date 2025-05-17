@@ -93,7 +93,7 @@ Welcome to the Airbnb Dynamic Pricing project! This repository contains code, da
    ```
 2. Navigate into the project directory:
    ```bash
-   cd airbnb-pricing-engine
+   cd Final_Project/Airbnb_Dynamic_Pricing
    ```
 3. Install the required libraries:
    ```bash

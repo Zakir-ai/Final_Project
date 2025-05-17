@@ -116,13 +116,3 @@ Welcome to the Airbnb Dynamic Pricing project! This repository contains code, da
 - Dashboard can be extended to provide real-time price suggestions via API.
 
 ---
-
-## 📬 Contact
-
-For queries or collaborations, reach out via [LinkedIn](#) or email: [YourEmail@example.com]
-
----
-
-## 📌 License
-
-This project is licensed for educational and portfolio use.

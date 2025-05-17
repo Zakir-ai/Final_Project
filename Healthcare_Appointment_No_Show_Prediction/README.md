@@ -85,7 +85,7 @@ This project uses machine learning and Power BI to predict whether a patient wil
    ```
 2. . Navigate into the project directory:
    ```bash
-   cd healthcare-no-show-prediction
+   cd Healthcare_Appointment_No_Show_Prediction
    ```
 3. Install the required libraries:
    ```bash

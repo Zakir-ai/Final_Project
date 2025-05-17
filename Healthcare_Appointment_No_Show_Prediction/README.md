@@ -77,6 +77,30 @@ This project uses machine learning and Power BI to predict whether a patient wil
 
 ---
 
+## 🖥️ How to Run the Project
+
+1. Clone the Repository:
+   ```bash
+   git clone <repository_link>
+   ```
+2. Navigate into the project directory:
+   ```bash
+  cd healthcare-no-show-prediction
+   ```
+3. Install the required libraries:
+   ```bash
+   pip install pandas matplotlib seaborn scikit-learn xgboost
+   ```
+4. Run the Jupyter notebook:
+   - Open `Medical_Appointment.ipynb` in Jupyter or Google Colab
+
+5. View the Power BI dashboard:
+   - Open `Medical.pbix` with Power BI Desktop
+
+6. Read the reports:
+   - View `Medical_Appointment_Report.pdf` and `Recommendations.pdf`
+
+---
 ## 📄 Project Files
 
 - `Medical_Appointment.ipynb` – Model development notebook  

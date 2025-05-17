@@ -83,9 +83,9 @@ This project uses machine learning and Power BI to predict whether a patient wil
    ```bash
    git clone <repository_link>
    ```
-2. Navigate into the project directory:
+2. . Navigate into the project directory:
    ```bash
-  cd healthcare-no-show-prediction
+   cd healthcare-no-show-prediction
    ```
 3. Install the required libraries:
    ```bash

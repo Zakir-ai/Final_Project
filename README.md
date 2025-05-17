@@ -1,87 +1,128 @@
-# 🏥 Healthcare Appointment No-Show Prediction
+# 🏡 Airbnb Dynamic Pricing Recommendation Engine
 
-This project uses machine learning and Power BI to predict whether a patient will miss a scheduled medical appointment and provides strategic recommendations to reduce no-show rates.
+Welcome to the Airbnb Dynamic Pricing project! This repository contains code, data, and visualizations used to build a machine learning-based pricing recommendation engine.
 
 ---
 
 ## 📚 Project Objective
 
-- Predict whether a patient will miss their scheduled medical appointment.
-- Analyze historical appointment data to discover trends in no-show behavior.
-- Create a Power BI dashboard to visualize patterns and support decision-making.
-- Recommend strategies to improve attendance and optimize scheduling.
-  
+- Predict optimal Airbnb listing prices based on city, room type, reviews, and amenities.
+- Analyze historical Airbnb data to uncover pricing patterns.
+- Create an interactive dashboard for price suggestions.
+
 ---
 
 ## 🧰 Tools & Technologies
 
 - **[Python](https://www.python.org/downloads/)** – Core programming language
-- **[Pandas](https://pandas.pydata.org/)** – Data preprocessing and manipulation
-- **[Scikit-learn](https://scikit-learn.org/stable/)** – ML models and evaluation
-- **[XGBoost](https://xgboost.readthedocs.io/)** – Gradient boosting classifier
-- **[Seaborn](https://seaborn.pydata.org/)** – Visual exploration and trends
-- **[Power BI](https://powerbi.microsoft.com/desktop/)** – Interactive dashboards
-- **[Google Colab](https://colab.research.google.com/)** – Notebook execution
-- **[Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word)** / PDF – Final reporting
+- **[Pandas](https://pandas.pydata.org/)** – Data manipulation and preprocessing
+- **[Scikit-learn](https://scikit-learn.org/stable/)** – Machine learning models and evaluation
+- **[XGBoost](https://xgboost.readthedocs.io/)** – Gradient boosting regression
+- **[Seaborn](https://seaborn.pydata.org/)** – Data visualization
+- **[Excel](https://www.microsoft.com/en-us/microsoft-365/excel)** – Preprocessing and cleaning
+- **[Power BI](https://powerbi.microsoft.com/desktop/)** – Interactive dashboard design
+- **[Google Colab](https://colab.research.google.com/)** – Cloud-based notebook execution
+- **[Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word)** / PDF – Reporting and documentation
+
+---
+
+## 📋 Dataset
+
+- 📂 Dataset Source: [Airbnb Price Dataset on Kaggle](https://www.kaggle.com/datasets/rupindersinghrana/airbnb-price-dataset)
 
 ---
 
 ## 📋 Steps Followed
 
-1. **Data Cleaning** – Handled date parsing, removed invalid ages, encoded categories  
-2. **EDA** – Analyzed trends like SMS reminders, weekdays, and waiting time  
-3. **Feature Engineering** – Added new columns like `waiting_days`, `appointment_day_of_week`  
-4. **Modeling** – Trained Decision Tree, Random Forest, and XGBoost models  
-5. **Evaluation** – Compared models using Accuracy and F1 Score  
-6. **Visualization** – Designed a Power BI dashboard to show insights  
+1. **Data Cleaning**  
+   - Handled missing values, removed incomplete rows
+   
+2. **EDA (Exploratory Data Analysis)**  
+   - Identified trends across city, review scores, amenities
+
+3. **Feature Engineering**  
+   - Encoded categorical variables, transformed text features
+
+4. **Modeling**  
+   - Trained and evaluated Linear Regression, Random Forest, XGBoost
+
+5. **Model Evaluation**
+   - Used MAE, RMSE, and R² metrics for performance
 
 ---
 
 ## 🔍 Model Performance
 
-| Model              | Accuracy | F1 Score |
-|-------------------|----------|----------|
-| Decision Tree      | 60.53%   | ~0.61    |
-| XGBoost            | 83.48%   | ~0.83    |
-| Random Forest      | 84.68%   | ~0.85    |
+| Model              | MAE    | RMSE   | R²     |
+|-------------------|--------|--------|--------|
+| XGBoost Regressor | 0.2804 | 0.3869 | 0.71   |
+| Random Forest      | 0.2819 | 0.3915 | 0.70   |
+| Linear Regression  | 0.3597 | 0.4830 | 0.54   |
 
 ---
 
 ## 📊 Dashboard
 
-- Built in Power BI (`Medical.pbix`)
-- Visuals include:
-  - No-show by weekday, age, gender
-  - Impact of SMS reminders
-  - Correlation with waiting time and chronic conditions
+- Built using Power BI (file: `Airbnb.pbix`)
+- Includes filters for city, room type, and review score
+- Interactive slider for price suggestions
 
 ---
 
-## 💡 Key Insights
+## 📄 Reports
 
-- Higher no-shows observed on Mondays
-- SMS reminders significantly increase attendance
-- Elderly patients prefer afternoon appointments
-- Prior no-show history is a strong predictor
-- Long waiting days negatively impact attendance
+- `Airbnb_Dynamic_Pricing_Report.pdf`: Full project explanation
+- `Recommendations.pdf`: Actionable insights for Airbnb hosts
 
 ---
 
-## ✅ Recommendations
+## 🧠 Key Insights
 
-- Send SMS reminders 24–48 hours in advance
-- Avoid scheduling high-risk patients on Mondays
-- Use follow-up calls for patients with no-show history
-- Prioritize elderly for late-day slots
-- Explore telehealth options for distant neighborhoods
+- Entire homes priced 40–70% higher than shared/private rooms
+- Listings in NYC and SF had the highest base prices
+- High review scores correlate with higher pricing power
+- Amenities like Wi-Fi and AC positively affect pricing
+
+---
+
+## 🖥️ How to Run the Project
+
+1. Clone the Repository:
+   ```bash
+   git clone <repository_link>
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd airbnb-pricing-engine
+   ```
+3. Install the required libraries:
+   ```bash
+   pip install pandas matplotlib seaborn scikit-learn xgboost
+   ```
+4. Run the Jupyter notebook:
+   - Open `Airbnb.ipynb` in Jupyter or Google Colab
+
+5. View the Power BI dashboard:
+   - Open `Airbnb.pbix` with Power BI Desktop
+
+6. Read the reports:
+   - View `Airbnb_Dynamic_Pricing_Report.pdf` and `Recommendations.pdf`
 
 ---
 
-## 📄 Project Files
+## 📢 Notes
 
-- `Medical_Appointment.ipynb` – Model development notebook  
-- `Medical.pbix` – Interactive Power BI dashboard  
-- `Medical_Appointment_Report.pdf` – Full project report  
-- `Recommendations.pdf` – Strategic suggestions  
+- The model can be retrained periodically to stay updated with market trends.
+- Dashboard can be extended to provide real-time price suggestions via API.
 
 ---
+
+## 📬 Contact
+
+For queries or collaborations, reach out via [LinkedIn](#) or email: [YourEmail@example.com]
+
+---
+
+## 📌 License
+
+This project is licensed for educational and portfolio use.

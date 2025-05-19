@@ -63,7 +63,6 @@ This project uses machine learning and Power BI to predict whether a patient wil
 - [Age-wise No Show Analysis](SS/Age_Wise_No_Show_Analysis.png)
 - [No Show Rate](SS/No_Show_Rate.png)
 
-
 ---
 
 ## 💡 Key Insights

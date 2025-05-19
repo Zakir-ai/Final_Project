@@ -67,6 +67,22 @@ Welcome to the Airbnb Dynamic Pricing project! This repository contains code, da
 - Includes filters for city, room type, and review score
 - Interactive slider for price suggestions
 
+
+### 🖼️ Dashboard Preview
+
+**Global Overview** 
+
+![Global Overview](Airbnb_Dynamic_Pricing/SS/Global_Overview.png)
+
+**Location and Category**  
+
+![Location and Category](Airbnb_Dynamic_Pricing/SS/Location_and_Category.png)
+
+**Revenue & Rating Insights**  
+
+![Revenue & Rating Insights](Airbnb_Dynamic_Pricing/SS/Revenue_&_Rating_Insights.png)
+
+
 ---
 
 ## 📄 Reports

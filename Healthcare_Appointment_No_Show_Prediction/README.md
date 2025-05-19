@@ -58,7 +58,7 @@ This project uses machine learning and Power BI to predict whether a patient wil
 
 ### 🖼️ Dashboard Preview
 
-- [Overview Dashboard](SS/Overview.png)
+![Overview Dashboard](SS/Overview.png)
 - [Patient Demographics](SS/Patient_Demographics.png)
 - [Age-wise No Show Analysis](SS/Age_Wise_No_Show_Analysis.png)
 - [No Show Rate](SS/No_Show_Rate.png)
